@@ -1,5 +1,5 @@
 # aur-makepkg-guide
-Guide for makepkg and PKGBUILD
+Guide for makepkg and PKGBUILD (in archlinux!)
 
 in the directory with PKGBUILD you need to run!
 
