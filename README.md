@@ -13,14 +13,24 @@ Host aur.archlinux.org
     User aur
 ```
 (COPY CONTENT FROM ```~/.ssh/aur.pub``` TO YOUR ACCOUNT ON AUR, IN SSH PUBLICK KEY) 
+
 4. git clone ssh://aur@aur.archlinux.org/NAME_PKG.git
+
 5. makepkg --printsrcinfo > .SRCINFO
+
 6. mv PKGBUILD .SRCINFO NAME_PKG/
+
 (that is, all files)
+
 7. cd NAME_PKG/
+
 8. git add PKBUILD .SRCINFO
+
 (that is, all files)
+
 9. git commit -m "Vesrion 1"
+
 10. git push
+
 
 all, package in AUR
